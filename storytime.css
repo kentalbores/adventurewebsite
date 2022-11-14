@@ -1,0 +1,91 @@
+body{
+    background-image: url(adtime4.jpg);
+    background-size: cover;
+}
+#scroll{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 70px;
+    mix-blend-mode:multiply;
+}
+#cloud{
+    height: 200px;
+    position: absolute;
+    right: 200px;
+    z-index: 8;
+}
+.cloudbackground{
+    position: absolute;
+    right: 350px;
+    top: 150px;
+    width: 200px;
+    height: 90px;
+    box-shadow: 0 0 100px 80px rgba(21, 255, 0, 0.671);
+    border-radius: 50px;
+    z-index: 5;
+}
+.titl{
+    margin-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    text-shadow: 2px 2px 2px rgb(32, 218, 32);
+}
+.top{
+    margin-left: 60px;
+}
+.list{
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 50;
+    text-shadow: 2px 2px 2px goldenrod;
+}
+.bodytitle{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    text-shadow: 0  0 5px rgb(0, 255, 98);
+}
+.bodymain{
+    text-align:justify;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgb(0, 255, 42);
+}
+
+
+
+
+
+.selectop{
+    display: flex;
+    flex-direction: row;
+}
+.selectop a:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: rgba(0, 255, 55, 0.5);
+    transition: .3s;
+    box-shadow: 0 0 10px rgb(0, 255, 221);
+    text-shadow: 0 0 10px rgb(0, 255, 221);
+}
+.home, .story, .gallery{
+    text-decoration: none;
+    flex: 1;
+    border: 1px solid rgb(125, 201, 4);
+    margin: 40px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(0, 182, 82);
+    text-shadow: -2px -2px 5px rgb(0, 0, 0);
+    border-radius: 40px;
+}
+.locate{
+    width: 30px;
+    mix-blend-mode: multiply;
+}

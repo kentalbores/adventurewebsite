@@ -1,0 +1,65 @@
+
+.im1, .im2, .im3{
+    height: 200px;
+    text-align: center;
+}
+.im5, .im6{
+    width: 200px;
+    text-align: center;
+}
+.im4{
+    width: 220px;
+}
+td{
+    text-align: center;
+    border: dotted 2px blue;
+    background-color: aquamarine;
+    opacity: none;
+}
+table{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    opacity: .8;
+}
+.toptext{
+    font-size: larger;
+    color: rgb(255, 180, 89);
+    text-shadow: 0 0 10px rgb(102, 102, 102);
+    text-align: center;
+}
+.selectop{
+    display: flex;
+    flex-direction: row;
+}
+.selectop a:hover{
+    cursor: pointer;
+    color: aqua;
+    background-color: rgba(0, 255, 55, 0.5);
+    transition: .3s;
+    box-shadow: 0 0 10px rgb(0, 255, 221);
+    text-shadow: 0 0 10px rgb(0, 255, 221);
+}
+.home, .story, .gallery{
+    text-decoration: none;
+    flex: 1;
+    border: 1px solid rgb(125, 201, 4);
+    margin: 40px;
+    height: 200px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(0, 182, 82);
+    text-shadow: -2px -2px 5px rgb(0, 0, 0);
+    border-radius: 40px;
+}
+body{
+    background-image: url(adtime5.jpg);
+}
+.locate{
+    width: 30px;
+    mix-blend-mode: multiply;
+}
